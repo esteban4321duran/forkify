@@ -141,5 +141,6 @@ const init = async function () {
   searchResultsView.addHandlerRender(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('Messing up the controller.js file');
 };
 init();
